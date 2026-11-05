@@ -17,6 +17,7 @@ and NotProton never writes to them.
 | `plugins/20-renderdoc.conf` | a toggle with one sub-option, writing `0` when it is switched off rather than clearing the launch option |
 | `plugins/30-kosmickrisp.conf` | one toggle that both injects a dylib and sets two environment variables |
 | `variants/dxmt-example.conf` | a runner built from a CrossOver copy with your own files over it |
+| `variants/gst-libav-example.conf` | GStreamer decoders CrossOver leaves out, for games whose WMV videos crash or hang; written by `tools/install-gst-libav.sh` |
 
 These are the real descriptors behind three tools, not invented ones, so `requires` points
 at a build you probably do not have. That is the point of one of them: a row whose files
